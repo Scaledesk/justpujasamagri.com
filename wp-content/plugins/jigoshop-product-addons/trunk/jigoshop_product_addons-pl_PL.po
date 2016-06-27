@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jigoshop Product Add-ons v1.16\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-01-22 13:42:32+0000\n"
+"Last-Translator: admin <z.niedzielski@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: product-addons.php:74
+#@ jigoshop_product_addons
+msgid "Product Add-ons"
+msgstr "Dodatki do produktów"
+
+#: product-addons.php:99
+#: product-addons.php:100
+#: product-addons.php:176
+#: product-addons.php:177
+#@ jigoshop_product_addons
+msgid "Name"
+msgstr "Nazwa"
+
+#: product-addons.php:106
+#: product-addons.php:183
+#@ jigoshop_product_addons
+msgid "Checkboxes"
+msgstr "Wybór wielokrotny"
+
+#: product-addons.php:107
+#: product-addons.php:184
+#@ jigoshop_product_addons
+msgid "Select box"
+msgstr "Wybór pojedyńczy"
+
+#: product-addons.php:109
+#: product-addons.php:186
+#@ jigoshop_product_addons
+msgid "Customer Input boxes"
+msgstr "Krótki tekst"
+
+#: product-addons.php:110
+#: product-addons.php:187
+#@ jigoshop_product_addons
+msgid "Textareas"
+msgstr "Długi tekst"
+
+#: product-addons.php:111
+#: product-addons.php:188
+#@ jigoshop_product_addons
+msgid "Datepickers"
+msgstr "Wybór daty"
+
+#: product-addons.php:112
+#: product-addons.php:189
+#@ jigoshop_product_addons
+msgid "File upload"
+msgstr "Wgranie pliku"
+
+#: product-addons.php:117
+#: product-addons.php:118
+#: product-addons.php:194
+#: product-addons.php:195
+#@ jigoshop_product_addons
+msgid "Description"
+msgstr "Opis"
+
+#: product-addons.php:126
+#: product-addons.php:203
+#@ jigoshop_product_addons
+msgid "Add"
+msgstr "Dodaj"
+
+#: product-addons.php:136
+#: product-addons.php:210
+#: product-addons.php:233
+#@ jigoshop_product_addons
+msgid "Label"
+msgstr "Etykieta"
+
+#: product-addons.php:148
+#: product-addons.php:219
+#@ jigoshop_product_addons
+msgid "Delete add-on"
+msgstr "Skasuj dodatek"
+
+#: product-addons.php:258
+#@ jigoshop_product_addons
+msgid "Are you sure you want delete this add-on?"
+msgstr "Czy na pewno skasować ten dodatek?"
+
+#: product-addons.php:408
+#, php-format
+#@ jigoshop_product_addons
+msgid "(max size %s)"
+msgstr "(maksymalny rozmiar %s)"
+
+#: product-addons.php:425
+#@ jigoshop_product_addons
+msgid "None"
+msgstr "Nie"
+
+#: product-addons.php:596
+#@ jigoshop_product_addons
+msgid "Total price"
+msgstr "Łączna cena"
+
+#: product-addons.php:930
+#@ jigoshop_product_addons
+msgid "Addons"
+msgstr "Dodatki"
+
+#: product-addons.php:104
+#: product-addons.php:181
+#@ jigoshop_product_addons
+msgid "Type"
+msgstr "Typ"
+
+#: product-addons.php:124
+#@ jigoshop_product_addons
+msgid "Label/Value"
+msgstr "Etykieta/Wartość"
+
+#: product-addons.php:125
+#: product-addons.php:202
+#@ jigoshop_product_addons
+msgid "Price"
+msgstr "Cena"
+
+#: product-addons.php:201
+#@ jigoshop_product_addons
+msgid "Option"
+msgstr "Opcja"
+
+#: product-addons.php:147
+#: product-addons.php:218
+#@ jigoshop_product_addons
+msgid "Move"
+msgstr "Przenieś"
+
+#: product-addons.php:158
+#@ jigoshop_product_addons
+msgid "Add New Product Add-on"
+msgstr "Dodaj nowy dodatek do produktu"
+
+#: product-addons.php:246
+#@ jigoshop_product_addons
+msgid "Are you sure you want delete this add-on option?"
+msgstr "Czy na pewno usunąć tę opcję dla dodatku?"
+
+#: product-addons.php:108
+#: product-addons.php:185
+#@ jigoshop_product_addons
+msgid "Radio list"
+msgstr "Wybór jednokrotny (radio)"
+
+#: product-addons.php:476
+#@ jigoshop_product_addons
+msgid "Click to select a date"
+msgstr "Kliknij aby wybrać datę"
+

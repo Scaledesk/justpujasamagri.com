@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+
+Styled checkboxes with pure CSS (almost)
+
+The idea is that using the `:before` pseudo-class allows us to define the checkbox style in pure CSS, using the 'content' attribute to define the check symbol used and the `:checked` pseudo-selector to switch it. `:before` has to be on the subsequent element so that we can select it properly (you can't define `:before` for <input> elements).
+
+IE 8 doesn't support `:checked` so we switch a class on it using jQuery and IE 6 & 7 don't support `:before` so we add a <span> to do its job.
+
+*** IE fallbacks currently don't work! Feel free to suggest fixes :-) ***
+
+-->
+<!--[if lt IE 8]> <html class="lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<style>
+.styled-checkbox {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.styled-checkbox + label {
+    position: relative;
+}
+.styled-checkbox + label:before,
+.lt-ie8 .checkbox-replacement {
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    left: 0;
+    width: 0.6em;
+    height: 0.6em;
+    margin: 0 0.3em 0 -1em;
+    line-height: 0.6;
+    text-align: center;
+    /* Put checkbox styles here: */
+    border: 1px solid #999;
+}
+.styled-checkbox:checked + label:before,
+.lt-ie9 .styled-checkbox.checked + label:before {
+    content: '✔';
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+        </script>
+</head>
+<body>
+
+<form action="" method="GET">
+    <input class="styled-checkbox" type="checkbox" id="chk" name="chk" value="1" /><label for="chk">Tick me</label>
+    <input type="submit" value="Submit" />
+</form>
+
+<!--[if lt IE 9]><script>
+// JS for IE support
+// [Remove this if you're not supporting IE 8 and below]
+$(function() {
+    // IE 8 doesn't support :checked, so give it the 'checked' class for our
+    // styles to work
+    $('.lt-ie9 .styled-checkbox').click(function() {
+        var $this = $(this);
+        if($this.is(':checked')) {
+            $this.addClass('checked');
+        }
+        else {
+            $this.removeClass('checked');
+        }
+    });
+
+    // IE 6 & 7 don't support `:before`, so manually add a span with the same
+    // styling and update the content on change
+    // [Remove this if you're not supporting IE 6 & 7]
+    $('.lt-ie8 .styled-checkbox').each(function() {
+        $(this).before('<span class="checkbox-replacement"></span>');
+    });
+    $('.lt-ie8 .styled-checkbox').click(function() {
+        var $this = $(this);
+        if($this.is(':checked')) {
+            $this.siblings('.checkbox-replacement').html('✔');
+        }
+        else {
+            $this.siblings('.checkbox-replacement').html('');
+        }
+    });
+
+    // Trigger now to set initial state
+    $('.lt-ie9 form .styled-checkbox').change();
+});
+</script><![endif]-->
+
+</body>
+</html>

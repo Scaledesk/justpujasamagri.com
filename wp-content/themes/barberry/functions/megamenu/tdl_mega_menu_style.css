@@ -1,0 +1,15 @@
+/* Mega Menu Start */
+.tdl-megamenu .admin-button { margin:4px 0px 6px 0px; padding:4px 8px; }
+.tdl-megamenu p label { float:left; width:120px; }
+.tdl-megamenu p input[type=checkbox] { float:left; }
+
+.tdl_megamenu_box input[type=checkbox] { margin:12px; float:left; }
+.tdl_megamenu_box select {float:left; margin:7px 10px 0;}
+.tdl_megamenu_box label {float:left; margin-top:10px;margin-left:10px}
+
+.item-type-tdl-column, .item-type-tdl-widget, .item-type-hmenu, .tdl_megamenu_row_box { display:none; } 
+.hmenu_info {font-size:10px; font-style:inherit; color:#333333; display:block; margin:2px; padding:5px; background:#eee; }
+.textbox {width:90%}
+.hide {display:none}
+.link-to-original {padding:10px}
+/* Mega Menu End */

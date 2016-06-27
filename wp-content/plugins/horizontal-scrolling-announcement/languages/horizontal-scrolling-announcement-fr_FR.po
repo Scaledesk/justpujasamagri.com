@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Horizontal scrolling announcement\n"
+"POT-Creation-Date: 2015-10-03 01:06+0800\n"
+"PO-Revision-Date: 2015-10-03 01:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../horizontal-scrolling-announcement.php:276
+#: ../horizontal-scrolling-announcement.php:284
+msgid "Horizontal Scrolling"
+msgstr "défilement horizontal"
+
+#: ../horizontal-scrolling-announcement.php:283
+msgid "Horizontal scrolling announcement"
+msgstr "Annonce de défilement horizontal"
+
+#: ../horizontal-scrolling-announcement.php:343
+msgid "Title"
+msgstr "Titre"
+
+#: ../horizontal-scrolling-announcement.php:347
+#: ../pages/content-setting.php:50
+msgid "Scroll amount"
+msgstr "montant scroll"
+
+#: ../horizontal-scrolling-announcement.php:351
+#: ../pages/content-setting.php:54
+msgid "Scroll delay"
+msgstr "Faites retard"
+
+#: ../horizontal-scrolling-announcement.php:355
+#: ../pages/content-setting.php:58
+msgid "Direction"
+msgstr "direction"
+
+#: ../horizontal-scrolling-announcement.php:357
+msgid "Select"
+msgstr "sélectionner"
+
+#: ../horizontal-scrolling-announcement.php:363
+#: ../pages/content-management-show.php:91
+#: ../pages/content-management-show.php:102
+msgid "Group"
+msgstr "groupe"
+
+#: ../pages/content-management-add.php:30
+#: ../pages/content-management-edit.php:59
+msgid "Please enter the text."
+msgstr "S'il vous plaît entrer le texte."
+
+#: ../pages/content-management-add.php:37
+#: ../pages/content-management-edit.php:66
+msgid "Please enter the display order, only number."
+msgstr "S'il vous plaît entrer dans l'ordre d'affichage, seul le numéro."
+
+#: ../pages/content-management-add.php:44
+#: ../pages/content-management-edit.php:73
+msgid "Please select the display status."
+msgstr "S'il vous plaît sélectionner l'état d'affichage."
+
+#: ../pages/content-management-add.php:66
+msgid "New details was successfully added."
+msgstr "De nouveaux détails ont été ajoutés avec succès."
+
+#: ../pages/content-management-add.php:106
+msgid "Add details"
+msgstr "Ajouter des détails"
+
+#: ../pages/content-management-add.php:108
+#: ../pages/content-management-edit.php:132
+msgid "Enter the announcement"
+msgstr "Saisissez l'annonce"
+
+#: ../pages/content-management-add.php:110
+#: ../pages/content-management-edit.php:134
+msgid "Please enter your announcement text."
+msgstr "S'il vous plaît entrer le texte de votre annonce."
+
+#: ../pages/content-management-add.php:112
+#: ../pages/content-management-edit.php:136
+msgid "Enter target link"
+msgstr "Entrez lien cible"
+
+#: ../pages/content-management-add.php:114
+#: ../pages/content-management-edit.php:138
+msgid ""
+"When someone clicks on the announcement, where do you want to send them. URL "
+"must start with either http or https."
+msgstr ""
+"Lorsque quelqu'un clique sur l'image, où voulez-vous les faire parvenir."
+
+#: ../pages/content-management-add.php:116
+#: ../pages/content-management-edit.php:140
+msgid "Select target option"
+msgstr ""
+
+#: ../pages/content-management-add.php:121
+#: ../pages/content-management-edit.php:145
+msgid "Do you want to open link in new window?"
+msgstr ""
+
+#: ../pages/content-management-add.php:123
+#: ../pages/content-management-edit.php:147
+msgid "Display status"
+msgstr "afficher l'état"
+
+#: ../pages/content-management-add.php:128
+#: ../pages/content-management-edit.php:152
+msgid "Do you want to show this announcement in your scroll?"
+msgstr "Vous voulez montrer cette annonce sur votre défilement?"
+
+#: ../pages/content-management-add.php:130
+#: ../pages/content-management-edit.php:154
+msgid "Display order"
+msgstr "ordre d'affichage"
+
+#: ../pages/content-management-add.php:132
+#: ../pages/content-management-edit.php:156
+msgid ""
+"What order should this announcement be played in. should it come 1st, 2nd, "
+"3rd, etc.."
+msgstr ""
+"Dans quel ordre doit cette annonce être joué po doit-il venir 1re, 2e, 3e, "
+"etc."
+
+#: ../pages/content-management-add.php:134
+#: ../pages/content-management-edit.php:158
+msgid "Announcement group"
+msgstr "Groupe de l'annonce"
+
+#: ../pages/content-management-add.php:159
+#: ../pages/content-management-edit.php:189
+msgid "Please select your announcement group."
+msgstr "S'il vous plaît choisir votre groupe d'annonces."
+
+#: ../pages/content-management-add.php:161
+#: ../pages/content-management-edit.php:191
+msgid "Start date"
+msgstr ""
+
+#: ../pages/content-management-add.php:163
+#: ../pages/content-management-edit.php:193
+msgid ""
+"Please enter announcement display start date in this format YYYY-MM-DD <br /"
+"> 0000-00-00 : Is equal to no start date."
+msgstr ""
+
+#: ../pages/content-management-add.php:165
+#: ../pages/content-management-edit.php:195
+msgid "Expiration date"
+msgstr "Date d'expiration"
+
+#: ../pages/content-management-add.php:167
+#: ../pages/content-management-edit.php:197
+msgid ""
+"Please enter the expiration date in this format YYYY-MM-DD <br /> "
+"9999-12-31 : Is equal to no expire."
+msgstr ""
+"S'il vous plaît entrer la date d'expiration dans ce format AAAA-MM-JJ <br /> "
+"9999-12-31: est égal à aucune échéance."
+
+#: ../pages/content-management-add.php:174
+#: ../pages/content-management-edit.php:204
+#: ../pages/content-management-show.php:157
+msgid "Help"
+msgstr "Aide"
+
+#: ../pages/content-management-edit.php:18
+#: ../pages/content-management-show.php:35
+msgid "Oops, selected details doesnt exist."
+msgstr ""
+
+#: ../pages/content-management-edit.php:130
+msgid "Update details"
+msgstr "Modifier les informations"
+
+#: ../pages/content-management-show.php:55
+msgid "Selected record was successfully deleted."
+msgstr "Enregistrement sélectionné a été supprimé avec succès."
+
+#: ../pages/content-management-show.php:73
+#: ../pages/content-management-show.php:151
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: ../pages/content-management-show.php:88
+#: ../pages/content-management-show.php:99
+msgid "Announcement text"
+msgstr "Texte de l'annonce"
+
+#: ../pages/content-management-show.php:89
+#: ../pages/content-management-show.php:100
+msgid "Order"
+msgstr "Commander"
+
+#: ../pages/content-management-show.php:90
+#: ../pages/content-management-show.php:101
+msgid "Display"
+msgstr "afficher"
+
+#: ../pages/content-management-show.php:92
+#: ../pages/content-management-show.php:103
+msgid "Start Date"
+msgstr ""
+
+#: ../pages/content-management-show.php:93
+#: ../pages/content-management-show.php:104
+msgid "Expiration"
+msgstr "expiration"
+
+#: ../pages/content-management-show.php:119
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../pages/content-management-show.php:121
+msgid "Delete"
+msgstr "supprimer"
+
+#: ../pages/content-management-show.php:138
+msgid "No records available."
+msgstr "Pas de dossiers disponibles."
+
+#: ../pages/content-management-show.php:154
+msgid "Default Settings"
+msgstr "Paramètres par défaut"
+
+#: ../pages/content-management-show.php:162
+msgid "Plugin configuration option"
+msgstr "Plugin configuration option"
+
+#: ../pages/content-management-show.php:164
+msgid "Drag and drop the widget to your sidebar."
+msgstr "Drag and drop the widget to your sidebar."
+
+#: ../pages/content-management-show.php:165
+msgid "Add the plugin in the posts or pages using short code."
+msgstr "Add the plugin in the posts or pages using short code."
+
+#: ../pages/content-management-show.php:166
+msgid "Add directly in to the theme using PHP code."
+msgstr "Add directly in to the theme using PHP code."
+
+#: ../pages/content-setting.php:38
+msgid "Details successfully updated."
+msgstr "Détails mis à jour avec succès."
+
+#: ../pages/content-setting.php:45
+msgid "Default settings"
+msgstr "Les paramètres par défaut"
+
+#: ../pages/content-setting.php:46
+msgid "Widget Title"
+msgstr ""
+
+#: ../pages/content-setting.php:48
+msgid "Please enter your widget title."
+msgstr "S'il vous plaît entrer votre titre du widget."
+
+#: ../pages/content-setting.php:52
+msgid ""
+"Please enter scroll amount, This will make the scroll faster. (Example: 2)"
+msgstr ""
+"Veuillez entrer une quantité de défilement, cela rendra le défilement "
+"rapide. (Exemple: 2)"
+
+#: ../pages/content-setting.php:56
+msgid "Set the amount of delay in milliseconds. (Example: 5)"
+msgstr "Réglez la valeur de retard en millisecondes. (Exemple: 5)"
+
+#: ../pages/content-setting.php:63
+msgid "Please select your scroll direction."
+msgstr "S'il vous plaît choisir votre sens de défilement."
+
+#: ../pages/content-setting.php:65
+msgid "CSS attribute"
+msgstr "attribut CSS"
+
+#: ../pages/content-setting.php:67
+msgid ""
+"Please enter your CSS attributes for style. (Example: color:#FF0000; font:"
+"Arial;)"
+msgstr ""
+"S'il vous plaît entrer vos attributs CSS pour le style. (Example: color:"
+"#FF0000; font:Arial;)"
+
+#: ../pages/content-setting.php:69
+msgid "No announcement text"
+msgstr ""
+
+#: ../pages/content-setting.php:71
+msgid ""
+"This text will be display, if no announcement available or all announcement "
+"expired."
+msgstr ""
+
+#: ../pages/content-setting.php:73
+msgid "Capability"
+msgstr ""
+
+#: ../pages/content-setting.php:98
+msgid ""
+"Select user role to access the plugin admin menu. Only Admin user can change "
+"this value."
+msgstr ""

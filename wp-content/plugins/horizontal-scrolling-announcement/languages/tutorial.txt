@@ -1,0 +1,28 @@
+=== Horizontal scrolling announcement ===
+Contributors: www.gopiplus.com, gopiplus
+Donate link: http://www.gopiplus.com/work/2010/07/18/horizontal-scrolling-announcement/
+Author URI: http://www.gopiplus.com/work/2010/07/18/horizontal-scrolling-announcement/
+Plugin URI: http://www.gopiplus.com/work/2010/07/18/horizontal-scrolling-announcement/
+Tags: Horizontal, Scrolling, Announcement, Widget, Wordpress, Plugin
+Requires at least: 3.4
+Tested up to: 4.0
+Stable tag: 7.9
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+I have already created the translation pot file for you. 
+horizontal-scrolling-announcement.po
+
+Example: For doing Dutch translation.
+
+Open the above mentioned file in GPL poedit software http://www.poedit.net/.
+
+Enter your Dutch language terms in the poedit software and then save as 
+horizontal-scrolling-announcement-nl_NL.po 
+and put it in the /languages directory
+
+Now Open up your WordPress wp-config.php file and add the following:
+
+define (‘WPLANG’, ‘nl_NL’);
+
+That's it. Happy coding...

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Disable Right Click"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://techsini.com/our-wordpress-plugins/fluid-notification-bar/\">Fluid Notification Bar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://techsini.com/our-wordpress-plugins/elegant-subscription-popup/\">Elegant Subscription Popup</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://techsini.com/our-wordpress-plugins/stylish-notification-popup/\">Stylish Notification Popup</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://techsini.com/our-wordpress-plugins/simple-under-construction/\">Simple Under Construction</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Disable right click plugin prevents right click on your WordPress website and blog which avoids copying website content and source code up to some extent."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Check out <a href=\"http://techsini.com/our-wordpress-plugins/disable-right-click/\">Disable right click</a> plugin homepage for more information and screenshot."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Checkout Our other WordPress Plugins</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Credits</strong>\n"
+"Plugin icon: Icon made by Freepik from www.flaticon.com"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI enhancements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-coded from the ground with OOP"
+msgstr ""

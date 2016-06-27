@@ -1,0 +1,125 @@
+<?php
+/**
+ * Login Form
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.1.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+global $woocommerce, $barberry_options;
+
+?>
+
+<?php $woocommerce->show_messages(); ?>
+
+<?php do_action('woocommerce_before_customer_login_form'); ?>
+
+<div class="my-account-login-wrap">
+	
+	<div class="row" id="customer_login">
+	
+		<div class="span6">
+	
+			<div class="login-wrap">
+				<h4 class="lined-heading"><span><?php _e( 'Registered customers', 'tdl_framework' ); ?></span></h4>
+		<form method="post" class="login">
+
+			<?php do_action( 'woocommerce_login_form_start' ); ?>
+
+			<p class="form-row form-row-wide">
+				<label for="username"><?php _e( 'Username or email address', 'woocommerce' ); ?> <span class="required">*</span></label>
+				<input type="text" class="input-text" name="username" id="username" />
+			</p>
+			<p class="form-row form-row-wide">
+				<label for="password"><?php _e( 'Password', 'woocommerce' ); ?> <span class="required">*</span></label>
+				<input class="input-text" type="password" name="password" id="password" />
+			</p>
+
+			<?php do_action( 'woocommerce_login_form' ); ?>
+
+			<p class="form-row">
+				<?php wp_nonce_field( 'woocommerce-login' ); ?>
+				<input type="submit" class="button" name="login" value="<?php _e( 'Login', 'woocommerce' ); ?>" /> 
+				<label for="rememberme" class="inline">
+					<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php _e( 'Remember me', 'woocommerce' ); ?>
+				</label>
+			</p>
+			<p class="lost_password">
+				<a href="<?php echo esc_url( wc_lostpassword_url() ); ?>"><?php _e( 'Lost your password?', 'woocommerce' ); ?></a>
+			</p>
+
+			<?php do_action( 'woocommerce_login_form_end' ); ?>
+
+		</form>
+			</div>
+			
+		</div>
+	
+		<?php if (get_option('woocommerce_enable_myaccount_registration')=='yes') : ?>
+	
+		<div class="span6">
+			<div class="register_warp">
+			<h4 class="lined-heading"><span><?php _e( 'Register', 'tdl_framework' ); ?></span></h4>
+			
+			<div class="new-user-text"><?php echo $barberry_options['tdl_registration_content']; ?></div>
+			
+			<a class="button alt-button create-account-button" href="#create-account" data-toggle="modal"><?php _e('Create an account', 'tdl_framework'); ?></a>
+			
+			<form method="post" class="register">
+				
+				<div id="create-account" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="create-account-modal" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+						<h3 id="create-account-modal"><?php _e("Register", "tdl_framework"); ?></h3>
+					</div>
+                    
+					<div class="modal-body">
+				
+						<?php if ( get_option( 'woocommerce_registration_generate_username' ) === 'no' ) : ?>
+			
+							<p class="form-row form-row-first">
+								<label for="reg_username"><?php _e( 'Username', 'woocommerce' ); ?> <span class="required">*</span></label>
+					<input type="text" class="input-text" name="username" id="reg_username" value="<?php if ( ! empty( $_POST['username'] ) ) esc_attr( $_POST['username'] ); ?>" />
+							</p>
+
+			
+						<?php endif; ?>
+						<p class="form-row form-row-last">
+							<label for="reg_email"><?php _e( 'Email address', 'woocommerce' ); ?> <span class="required">*</span></label>
+				<input type="email" class="input-text" name="email" id="reg_email" value="<?php if ( ! empty( $_POST['email'] ) ) esc_attr( $_POST['email'] ); ?>" />
+						</p>
+			
+						<div class="clearfix"></div>
+			
+						<p class="form-row form-row-first">
+							<label for="reg_password"><?php _e( 'Password', 'woocommerce' ); ?> <span class="required">*</span></label>
+				<input type="password" class="input-text" name="password" id="reg_password" value="<?php if ( ! empty( $_POST['password'] ) ) esc_attr( $_POST['password'] ); ?>" />
+						</p>
+						<div class="clearfix"></div>
+			
+						<!-- Spam Trap -->
+			<div style="left:-999em; position:absolute;"><label for="trap"><?php _e( 'Anti-spam', 'woocommerce' ); ?></label><input type="text" name="email_2" id="trap" tabindex="-1" /></div>
+	
+						<?php do_action( 'woocommerce_register_form' ); ?>
+						<?php do_action( 'register_form' ); ?>
+						
+
+                      <?php wp_nonce_field( 'woocommerce-register', 'register' ); ?>
+						<input type="submit" class="buttonreg" name="register" value="<?php _e( 'Register', 'woocommerce' ); ?>" />
+											
+					</div>
+				</div>
+			</form>
+	
+		</div>
+		</div>
+		<?php endif; ?>
+		
+	</div>
+
+</div>
+
+<?php do_action('woocommerce_after_customer_login_form'); ?>

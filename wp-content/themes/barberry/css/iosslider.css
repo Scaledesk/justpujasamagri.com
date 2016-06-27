@@ -1,0 +1,179 @@
+.slidercontainer, .slider_maincontainer {
+	/* defaults for resposive height container */
+	position: relative;
+	top:0;
+	width: 100%;
+	height: 0;
+	
+	/* 39% being the ratio we are maintaining 
+	 * calculated by looking at the image 
+	 * ratio: 400/1024 = ~0.39 */
+	padding: 0 0 39% 0;
+	z-index:0;
+	overflow: hidden;
+}
+
+.iosSlider {
+	width: 100%;
+	
+	/* this height ends up being your maximum height, 
+	 * if you want it to scale forever, set it to 
+	 * a very high number */
+	height: 1000px;
+}
+
+.slider_maincontainer .iosSlider { height:400px}
+
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+
+.iosSlider .slider .item {
+	float: left;	
+	width: 100%;
+}
+
+.iosSlider .slider .item img {
+	width: 100% !important;
+	height: auto;
+
+}
+
+.iosSlider .slider .item .caption{
+	position:absolute;
+	width:100%;
+	top:55%;
+	z-index:9999;
+}
+
+.iosSlider .slider .item .left{
+	left:0;
+}
+
+.iosSlider .slider .item .right{
+	right:0;
+	text-align:right;
+}
+
+
+.iosSlider .slider .item .iostitle {
+	display: block;
+	width:500px;
+	font-size:60px;
+	line-height:60px;
+	font-weight:300;
+	text-transform:uppercase;
+	margin-bottom:20px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+			
+.iosSlider .slider .item .iostext {
+	display:block;
+	width:500px;				
+	font-size:16px;
+	font-weight:300;
+	line-height:22px;
+	text-transform:uppercase;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+			
+.iosSlider .slider .item .right .iostitle, .iosSlider .slider .item .right .iostext { float:right;}
+			
+.iosSlider .slider .item .light, .iosSlider .slider .item .light .iostitle, .iosSlider .slider .item .light h1 a {color: #fff; text-decoration:none}
+.iosSlider .slider .item .dark, .iosSlider .slider .item .dark .iostitle, .iosSlider .slider .item .dark h1 a  {color: #000; text-decoration:none}
+			
+			
+
+
+
+/* controls */
+
+.navcont { position:relative}
+
+
+	
+.iosSlider .left {right:0;}	
+.iosSlider .right {left:0;}
+
+.iosSlider .prev, .iosSlider .next {
+	position: relative;
+	z-index: 10;
+	display:inline-block;
+	top:5px;
+	width:30px;
+	opacity:0;
+}
+
+.iosSlider:hover .prev, .iosSlider:hover .next {
+	opacity:1;
+}
+
+
+.iosSlider .prev { right:10px;}
+.iosSlider .next { left:10px;}
+
+.iosSlider .center .navcont { text-align:center}
+.iosSlider .center .iostitle { margin:0 auto}
+.iosSlider .center .iostext { margin:0 auto}
+
+.iosSlider .prev:before {
+	font-size:30px;
+	content: "\f104";
+	font-family: 'icomoon';
+}
+
+
+.iosSlider .next:before {
+	font-size:30px;
+	content: "\f105";
+	font-family: 'icomoon';
+}
+
+
+.slidercontainer .selectorsBlock {
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+
+}
+
+.slidercontainer .selectorsBlock #selectors {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 50%;
+	height: 100%;
+	text-align:center;
+}
+
+.slidercontainer .selectorsBlock #selectors .item {
+	display:inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;	
+	margin: 0 0 0 10px;
+	
+}
+
+.selectorsBlock .dark .item {border:1px solid #000;}
+.selectorsBlock .light .item {border:1px solid #fff;}
+
+
+.selectorsBlock .dark .selected, .selectorsBlock .dark .item:hover {border:1px solid #000; background:#000}
+.selectorsBlock .light .selected, .selectorsBlock .light .item:hover {border:1px solid #fff; background:#fff}
+
+.slidercontainer .selectorsBlock #selectors .first {
+	margin-left: 0;
+}

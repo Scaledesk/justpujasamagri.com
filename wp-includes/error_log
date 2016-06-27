@@ -1,0 +1,6 @@
+[23-Feb-2015 14:28:16 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/admin-bar.php on line 48
+[23-Feb-2015 14:28:16 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/canonical.php on line 552
+[23-Feb-2015 14:28:16 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/author-template.php on line 471
+[23-Feb-2015 14:28:16 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/admin-bar.php on line 48
+[23-Feb-2015 14:28:16 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/author-template.php on line 471
+[24-Feb-2015 01:17:26 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/breezeof/public_html/justpujasamagri.com/wp-includes/canonical.php on line 552
